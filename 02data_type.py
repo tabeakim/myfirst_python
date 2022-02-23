@@ -4,19 +4,19 @@
 자료 : 프로그램이 처리할 수 있는 모든 것
 프로그램 : 자료를 처리 하는 역할
 
-#자료형(data type) : 문자열(string), 숫자(number), 불(boolean)
+자료형(data type) : 문자열(string), 숫자(number), 불(boolean)
 String : "Hallo", "Hello World"
 Number : 52, 103.32
 Boolean : True, False
 
-#자료형 확인하기 : type() 함수 이용
+자료형 확인하기 : type() 함수 이용
 ex)
->>>print(type("Hallo"))
+print(type("Hallo"))
 <class 'str'> -> 문자열
->>>print(type(273))
+print(type(273))
 <class 'int'> -> 정수
 
-#문자열 만들기
+문자열 만들기
 따옴표로 둘러싸여 입력된 모든 것
 ex)
 "Hello"
@@ -32,7 +32,7 @@ ex)
 <SyntaxError : invalid syntax>
 
 따라서,
->>>print('"안녕하세요"라고 말했습니다')
+print('"안녕하세요"라고 말했습니다')
 
 #이스케이프 문자를 사용해 문자열 만들기
  역슬래시(\) 기호와 함께 조합해서 사용
@@ -40,8 +40,13 @@ ex)
   \" : 큰따옴표
   \' : 작은따옴표
 ex)
->>>print("\"안녕하세요\"라고 말했습니다.")
->>>print('\'배가 고픕니다\'라고 생각했습니다')
+print("\"안녕하세요\"라고 말했습니다.")
+print('\'배가 고픕니다\'라고 생각했습니다')
+
+  \n : 줄바꿈
+  \t : 탭
+ex)
+print("Hallo\nHallo")
 
 
 """
